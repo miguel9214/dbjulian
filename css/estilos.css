@@ -37,11 +37,9 @@ body {
 }
 
 .columna-derecha {
-	background-image:url("/images/jjpp.jpg");
+	background-image:url("/assets/images/jjpp.jpg");
 	background-size: cover;
 	background-position-x: center;
-	background-position-y:center ;
-	object-fit: contain;
 }
 
 .header {
@@ -158,3 +156,9 @@ button svg {
 	width: 20px;
 	height: 20px;
 }
+
+@media (max-width: 400px) {
+	.columna-derecha{
+	 display: none;
+	}
+  }

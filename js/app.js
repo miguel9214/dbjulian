@@ -20,7 +20,7 @@ formulario.addEventListener("submit", async (e) => {
           barrio: formulario.barrio.value,
           direccion: formulario.direccion.value,
           identificacionLider: formulario.identLider.value,
-          nombreLider: formulario.identVotante.value,
+          nombreLider: formulario.nombreLider.value,
         }),
       }
     );
